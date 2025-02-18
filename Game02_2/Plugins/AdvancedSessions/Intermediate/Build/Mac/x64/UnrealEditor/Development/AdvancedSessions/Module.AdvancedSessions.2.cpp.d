@@ -4250,13 +4250,11 @@
   /Users/Shared/Epic\ Games/UE_5.5/Engine/Source/../Intermediate/Build/Mac/UnrealEditor/Inc/ToolMenus/UHT/ToolMenus.generated.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/x64/UnrealEditor/Development/AdvancedSessions/Module.AdvancedSessions.2.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/x64/UnrealEditor/Development/AdvancedSessions/Definitions.AdvancedSessions.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AdvancedVoiceLibrary.gen.cpp \
-  Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedVoiceLibrary.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsGameInstance.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsGameInstance.h \
   Runtime/Core/Public/CoreMinimal.h \
-  Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/BlueprintDataDefinitions.h \
   Runtime/Engine/Classes/Engine/Engine.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/BlueprintDataDefinitions.h \
   Runtime/Engine/Classes/GameFramework/PlayerState.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/Templates/SubclassOf.h \
@@ -4305,6 +4303,7 @@
   Runtime/Engine/Classes/GameFramework/PlayerController.h \
   ../Plugins/Online/OnlineSubsystemUtils/Intermediate/Build/Mac/UnrealEditor/Inc/OnlineSubsystemUtils/UHT/OnlineSubsystemUtilsClasses.h \
   ../Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Classes/AchievementBlueprintLibrary.h \
+  Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
   ../Plugins/Online/OnlineSubsystemUtils/Intermediate/Build/Mac/UnrealEditor/Inc/OnlineSubsystemUtils/UHT/AchievementBlueprintLibrary.generated.h \
   ../Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Classes/AchievementQueryCallbackProxy.h \
   Runtime/Engine/Public/Net/OnlineBlueprintCallProxyBase.h \
@@ -4421,44 +4420,106 @@
   ../Plugins/Online/OnlineSubsystemUtils/Intermediate/Build/Mac/UnrealEditor/Inc/OnlineSubsystemUtils/UHT/TurnBasedBlueprintLibrary.generated.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/BlueprintDataDefinitions.generated.h \
   ../Plugins/Online/OnlineSubsystem/Source/Public/Online.h \
+  ../Plugins/Online/OnlineSubsystem/Source/Public/Interfaces/OnlineUserInterface.h \
+  ../Plugins/Online/OnlineSubsystem/Source/Public/Interfaces/OnlinePresenceInterface.h \
   Runtime/Engine/Classes/Engine/GameInstance.h \
-  Runtime/CoreUObject/Public/UObject/UObjectIterator.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AdvancedVoiceLibrary.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AutoLoginUserCallbackProxy.gen.cpp \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AutoLoginUserCallbackProxy.h \
   Runtime/Engine/Classes/Engine/LocalPlayer.h \
+  Runtime/CoreUObject/Public/UObject/UObjectIterator.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsInterface.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AdvancedFriendsInterface.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AdvancedFriendsGameInstance.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStatics.h \
+  Runtime/Engine/Classes/Engine/EngineTypes.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
+  Runtime/Engine/Public/CollisionQueryParams.h \
+  Runtime/Engine/Classes/Engine/LatentActionManager.h \
+  Runtime/Engine/Classes/Kismet/KismetSystemLibrary.h \
+  Runtime/Engine/Classes/Engine/HitResult.h \
+  Runtime/CoreUObject/Public/UObject/UnrealType.h \
+  Runtime/CoreUObject/Public/UObject/TextProperty.h \
+  Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
+  Runtime/CoreUObject/Public/UObject/PropertyAccessUtil.h \
+  Runtime/Core/Public/CoreGlobals.h Runtime/Core/Public/HAL/Platform.h \
+  Runtime/Core/Public/Misc/EnumClassFlags.h \
+  Runtime/Core/Public/Templates/Function.h \
+  Runtime/CoreUObject/Public/UObject/TopLevelAssetPath.h \
+  Runtime/Engine/Classes/Engine/CollisionProfile.h \
+  Runtime/CoreUObject/Public/AssetRegistry/ARFilter.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/KismetSystemLibrary.generated.h \
+  Runtime/Engine/Classes/Sound/DialogueTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/DialogueTypes.generated.h \
+  Runtime/Engine/Classes/Kismet/GameplayStaticsTypes.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStaticsTypes.generated.h \
+  Runtime/Engine/Classes/Particles/WorldPSCPool.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameplayStatics.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsInterface.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedFriendsLibrary.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedFriendsLibrary.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AdvancedFriendsLibrary.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedIdentityLibrary.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedIdentityLibrary.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AdvancedIdentityLibrary.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedSessions.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedSessions.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedSessionsLibrary.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedSessionsLibrary.h \
+  Runtime/Engine/Classes/GameFramework/GameModeBase.h \
+  Runtime/Core/Public/Misc/Guid.h \
+  Runtime/Engine/Classes/GameFramework/Pawn.h \
+  Runtime/Engine/Classes/Engine/ServerStatReplicator.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/ServerStatReplicator.generated.h \
+  Runtime/Net/Core/Public/Net/Core/Connection/NetEnums.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameModeBase.generated.h \
+  Runtime/Engine/Classes/GameFramework/GameSession.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameSession.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AdvancedSessionsLibrary.generated.h \
+  Runtime/Engine/Classes/GameFramework/GameStateBase.h \
+  Runtime/Core/Public/Stats/Stats.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/GameStateBase.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AdvancedVoiceLibrary.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AdvancedVoiceLibrary.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AdvancedVoiceLibrary.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/AutoLoginUserCallbackProxy.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/AutoLoginUserCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/AutoLoginUserCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/BlueprintDataDefinitions.gen.cpp \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/CancelFindSessionsCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/CancelFindSessionsCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/CancelFindSessionsCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/CancelFindSessionsCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/CreateSessionCallbackProxyAdvanced.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/CreateSessionCallbackProxyAdvanced.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/CreateSessionCallbackProxyAdvanced.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/CreateSessionCallbackProxyAdvanced.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/EndSessionCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/EndSessionCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/EndSessionCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/EndSessionCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/FindFriendSessionCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/FindFriendSessionCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/FindFriendSessionCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/FindFriendSessionCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/FindSessionsCallbackProxyAdvanced.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/FindSessionsCallbackProxyAdvanced.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/FindSessionsCallbackProxyAdvanced.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/FindSessionsCallbackProxyAdvanced.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/GetFriendsCallbackProxy.gen.cpp \
+  ../Plugins/Online/OnlineBase/Source/Public/Online/OnlineSessionNames.h \
+  Runtime/Core/Public/Misc/CoreMiscDefines.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetFriendsCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetFriendsCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/GetFriendsCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/GetRecentPlayersCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetRecentPlayersCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetRecentPlayersCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/GetRecentPlayersCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/GetUserPrivilegeCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/GetUserPrivilegeCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/GetUserPrivilegeCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/GetUserPrivilegeCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/LoginUserCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/LoginUserCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/LoginUserCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/LoginUserCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/LogoutUserCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/LogoutUserCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/LogoutUserCallbackProxy.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/LogoutUserCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/SendFriendInviteCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/SendFriendInviteCallbackProxy.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/SendFriendInviteCallbackProxy.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/SendFriendInviteCallbackProxy.generated.h
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/SendFriendInviteCallbackProxy.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/StartSessionCallbackProxyAdvanced.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/StartSessionCallbackProxyAdvanced.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/StartSessionCallbackProxyAdvanced.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Private/UpdateSessionCallbackProxyAdvanced.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/UpdateSessionCallbackProxyAdvanced.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSessions/UHT/UpdateSessionCallbackProxyAdvanced.generated.h

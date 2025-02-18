@@ -5,24 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/UI/Menus/Levels/LVL_Menu.umap",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/UI/Menus/Blueprints/GI_Game02.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/UI/Menus/Blueprints/WB_Create_Server.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/UI/Menus/Blueprints/WB_Server_Browser.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/UI/Menus/Blueprints/WB_Server_Card.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/UI/Menus/Blueprints/PC_Main_Menu.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/TestLeve.umap",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/BP_Blackhole_Test.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/Blackhole1.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/BP_Item_JumpBoost_test.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/BP_Item_SpeedBoost.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/A/ET/G8LGMNRCQQX2WJU3AFE5QB.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/C/WY/E7CJ0ERIXOG4NRNRM39862.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/Wall1.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/BP_Item_WallPlace_test.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/D/KP/F6H16EAW3IL1LWFAIYURDK.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/5/D8/UIS4ZFL7IN842VB5E099SU.uasset"
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Levels/TestLevels/Map_1.umap",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset"
 			]
 		}
 	]
