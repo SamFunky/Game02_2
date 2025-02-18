@@ -1,0 +1,22 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/AICharacter/BP_AIOpponent.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/BP_AIOpponent.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/AICharacter/BP_AIOpponentController.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Levels/TestLevels/Map_1.umap",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/PlayerLogic/BP_Opponent.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/AICTest.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/7/X6/2C588K2MFG8OW86K0396I4.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/7/ZS/VO1NYS3INLRI0RF4JCEKIP.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/B/H0/R99IBOMD5RLVBTWVHVB1XE.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/3/P7/I0LRBSUP3E7VX5Q84CT5CR.uasset"
+			]
+		}
+	]
+}
