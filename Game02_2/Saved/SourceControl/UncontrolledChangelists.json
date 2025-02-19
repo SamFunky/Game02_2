@@ -5,26 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/Interfaces/BI_Grab_Box.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/BP_ItemBox.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/MetaHumans/Erno/CBP_Erno.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/MetaHumans/Mason/CBP_Mason.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/MetaHumans/Orla/CBP_Orla.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/MetaHumans/Seneca/CBP_Seneca.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/C/WY/E7CJ0ERIXOG4NRNRM39862.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/BP_Item_SpeedBoost.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/Items/BP_Item_JumpBoost_test.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/7/X6/2C588K2MFG8OW86K0396I4.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/A/WB/7WDZ4BIBGHCT5I3YRTP6HQ.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/6/SM/SR7Q1ELA48MQJ1MHWWX109.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/D/3N/P5F1NENW1MQKRL1HIKCIK2.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/__ExternalActors__/TestLeve/B/CF/AOALQ1H52CUX8AO9PWSV00.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/TestLeve.umap",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/BP_PlayerState.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/GM_PlayerController.uasset",
-				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Levels/TestLevels/Map_1.umap",
-				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset"
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/Items/BP_SharkProjectile.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Levels/TestLevels/Map_1.umap"
 			]
 		}
 	]
