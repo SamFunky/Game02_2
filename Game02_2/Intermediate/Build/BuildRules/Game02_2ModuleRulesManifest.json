@@ -1,10 +1,10 @@
 {
 	"SourceFiles": [
-		"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Source/Game02_2/Game02_2.Build.cs",
-		"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/AdvancedSessions.Build.cs",
-		"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/AdvancedSteamSessions.Build.cs",
-		"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Source/Game02_2.Target.cs",
-		"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Source/Game02_2Editor.Target.cs"
+		"C:\\Users\\18588\\Documents\\Unreal Projects\\Game02_2\\Game02_2\\Source\\Game02_2\\Game02_2.Build.cs",
+		"C:\\Users\\18588\\Documents\\Unreal Projects\\Game02_2\\Game02_2\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"C:\\Users\\18588\\Documents\\Unreal Projects\\Game02_2\\Game02_2\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
+		"C:\\Users\\18588\\Documents\\Unreal Projects\\Game02_2\\Game02_2\\Source\\Game02_2.Target.cs",
+		"C:\\Users\\18588\\Documents\\Unreal Projects\\Game02_2\\Game02_2\\Source\\Game02_2Editor.Target.cs"
 	],
 	"EngineVersion": "5.5.3"
 }

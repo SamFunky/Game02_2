@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Game02_2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\18588\Documents\Unreal Projects\Game02_2\Game02_2\Intermediate\Build\Win64\x64\Game02_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\18588\Documents\Unreal Projects\Game02_2\Game02_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game02_2\Game02_2.cpp.obj"
+"C:\Users\18588\Documents\Unreal Projects\Game02_2\Game02_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game02_2\MyClass.cpp.obj"
+"C:\Users\18588\Documents\Unreal Projects\Game02_2\Game02_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game02_2\PerModuleInline.gen.cpp.obj"
+"C:\Users\18588\Documents\Unreal Projects\Game02_2\Game02_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game02_2\Default.rc2.res"
+/OUT:"C:\Users\18588\Documents\Unreal Projects\Game02_2\Game02_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\Game02_2\UnrealEditor-Game02_2.lib"
