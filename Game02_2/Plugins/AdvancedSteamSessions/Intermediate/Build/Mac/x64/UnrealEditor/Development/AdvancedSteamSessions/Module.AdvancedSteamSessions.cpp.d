@@ -4250,7 +4250,8 @@
   /Users/Shared/Epic\ Games/UE_5.5/Engine/Source/../Intermediate/Build/Mac/UnrealEditor/Inc/ToolMenus/UHT/ToolMenus.generated.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/x64/UnrealEditor/Development/AdvancedSteamSessions/Module.AdvancedSteamSessions.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/x64/UnrealEditor/Development/AdvancedSteamSessions/Definitions.AdvancedSteamSessions.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamFriendsLibrary.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/AdvancedSteamFriendsLibrary.gen.cpp \
+  Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamFriendsLibrary.h \
   Runtime/Core/Public/CoreMinimal.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/BlueprintDataDefinitions.h \
@@ -4459,15 +4460,28 @@
   ThirdParty/Steamworks/Steamv157/sdk/public/steam/isteamnetworkingsockets.h \
   ThirdParty/Steamworks/Steamv157/sdk/public/steam/isteamnetworkingutils.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/AdvancedSteamFriendsLibrary.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/AdvancedSteamSessions.init.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/AdvancedSteamWorkshopLibrary.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamWorkshopLibrary.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/AdvancedSteamWorkshopLibrary.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/SteamNotificationsSubsystem.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamNotificationsSubsystem.h \
+  Runtime/Engine/Public/Subsystems/GameInstanceSubsystem.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/SteamNotificationsSubsystem.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/SteamRequestGroupOfficersCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamRequestGroupOfficersCallbackProxy.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/SteamRequestGroupOfficersCallbackProxy.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/SteamWSRequestUGCDetailsCallbackProxy.gen.cpp \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamWSRequestUGCDetailsCallbackProxy.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/SteamWSRequestUGCDetailsCallbackProxy.generated.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/x64/UnrealEditor/Development/AdvancedSteamSessions/PerModuleInline.gen.cpp \
+  Runtime/Core/Public/HAL/PerModuleInline.inl \
+  Runtime/Core/Public/CoreGlobals.h \
+  Runtime/Core/Public/Modules/Boilerplate/ModuleBoilerplate.h \
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamFriendsLibrary.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSessions/Source/AdvancedSessions/Classes/OnlineSubSystemHeader.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamSessions.cpp \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamSessions.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/AdvancedSteamWorkshopLibrary.cpp \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/AdvancedSteamWorkshopLibrary.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/AdvancedSteamWorkshopLibrary.generated.h \
   /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/SteamRequestGroupOfficersCallbackProxy.cpp \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamRequestGroupOfficersCallbackProxy.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/SteamRequestGroupOfficersCallbackProxy.generated.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/SteamWSRequestUGCDetailsCallbackProxy.cpp \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Classes/SteamWSRequestUGCDetailsCallbackProxy.h \
-  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Intermediate/Build/Mac/UnrealEditor/Inc/AdvancedSteamSessions/UHT/SteamWSRequestUGCDetailsCallbackProxy.generated.h
+  /Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Plugins/AdvancedSteamSessions/Source/AdvancedSteamSessions/Private/SteamWSRequestUGCDetailsCallbackProxy.cpp
