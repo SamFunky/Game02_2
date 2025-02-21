@@ -5,11 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/GM_PlayerController.uasset",
-				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset",
 				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/Items/BP_SharkProjectile.uasset",
 				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset",
-				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Levels/TestLevels/Map_1.umap"
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Levels/TestLevels/Map_1.umap",
+				"/Users/barrettmize/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/Items/BP_SharkProjectileSticky.uasset",
+				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/GM_PlayerController.uasset",
+				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset"
 			]
 		}
 	]
