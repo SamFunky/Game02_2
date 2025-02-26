@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Shadow/Documents/GitHub/Game02_2/Game02_2/TheRealGame02/Content/StarterContent/Architecture/Floor_400x400.uasset"
+			]
+		}
+	]
+}
