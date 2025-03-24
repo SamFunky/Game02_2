@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Robert J Berryhill/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/Items/StickyBlob/BP_StickyBlob.uasset",
+				"C:/Users/Robert J Berryhill/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/Items/StickyBlob/BP_StickyBlobProjectile.uasset",
+				"C:/Users/Robert J Berryhill/Documents/GitHub/Game02_2/Game02_2/Content/Levels/TestLevels/Rob_Dev_Basic.umap",
+				"C:/Users/Robert J Berryhill/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/Items/StickyBlob/BP_StickyBlobDebuff.uasset",
+				"C:/Users/Robert J Berryhill/Documents/GitHub/Game02_2/Game02_2/Content/Blueprints/Items/StickyBlob/BP_StickyBlobDebuff_alt.uasset",
+				"C:/Users/Robert J Berryhill/Documents/GitHub/Game02_2/Game02_2/Content/UI/Menus/Levels/LVL_Menu.umap",
 				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/GM_PlayerController.uasset",
 				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/CBP_SandboxCharacter.uasset",
 				"C:/Users/18588/Documents/Unreal Projects/Game02_2/Game02_2/Content/Blueprints/BP_PlayerState.uasset",
