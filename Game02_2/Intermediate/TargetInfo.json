@@ -1,38 +1,13 @@
 {
 	"Targets": [
 		{
-			"Name": "LiveLinkHub",
-			"Path": "../../../../../../Shared/Epic Games/UE_5.5/Engine/Source/Programs/LiveLinkHub/Source/LiveLinkHub.Target.cs",
-			"Type": "Editor"
-		},
-		{
-			"Name": "DotNetPerforceLib",
-			"Path": "../../../../../../Shared/Epic Games/UE_5.5/Engine/Source/Programs/Shared/EpicGames.Perforce.Native/DotNetPerforceLib.Target.cs",
-			"Type": "Program"
-		},
-		{
-			"Name": "EventLoopUnitTests",
-			"Path": "../../../../../../Shared/Epic Games/UE_5.5/Engine/Source/Runtime/Online/Experimental/EventLoopTests/EventLoopUnitTests.Target.cs",
-			"Type": "Program"
-		},
-		{
-			"Name": "UnrealEditor",
-			"Path": "../../../../../../Shared/Epic Games/UE_5.5/Engine/Source/UnrealEditor.Target.cs",
-			"Type": "Editor"
-		},
-		{
-			"Name": "UnrealGame",
-			"Path": "../../../../../../Shared/Epic Games/UE_5.5/Engine/Source/UnrealGame.Target.cs",
-			"Type": "Game"
-		},
-		{
 			"Name": "Game02_2",
-			"Path": "../Source/Game02_2.Target.cs",
+			"Path": "..\\Source\\Game02_2.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Game02_2Editor",
-			"Path": "../Source/Game02_2Editor.Target.cs",
+			"Path": "..\\Source\\Game02_2Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]

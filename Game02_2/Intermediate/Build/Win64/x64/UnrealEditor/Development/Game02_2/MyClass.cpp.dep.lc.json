@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\18588\\documents\\unreal projects\\game02_2\\game02_2\\source\\game02_2\\myclass.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\18588\\documents\\unreal projects\\game02_2\\game02_2\\intermediate\\build\\win64\\x64\\game02_2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\18588\\documents\\unreal projects\\game02_2\\game02_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\game02_2\\definitions.game02_2.h",
+            "c:\\users\\18588\\documents\\unreal projects\\game02_2\\game02_2\\source\\game02_2\\myclass.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
