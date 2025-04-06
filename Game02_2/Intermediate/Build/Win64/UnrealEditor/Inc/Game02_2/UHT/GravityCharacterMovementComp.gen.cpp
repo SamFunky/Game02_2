@@ -29,9 +29,8 @@ struct Z_Construct_UClass_UGravityCharacterMovementComp_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
-#endif
+		{ "BlueprintSpawnableComponent", "" },
+		{ "ClassGroupNames", "Custom" },
 		{ "IncludePath", "GravityCharacterMovementComp.h" },
 		{ "ModuleRelativePath", "Public/GravityCharacterMovementComp.h" },
 	};
@@ -80,14 +79,14 @@ UGravityCharacterMovementComp::~UGravityCharacterMovementComp() {}
 // End Class UGravityCharacterMovementComp
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Game02_2_Source_Game02_2_Public_GravityCharacterMovementComp_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Robert_J_Berryhill_Documents_GitHub_Game02_2_Game02_2_Source_Game02_2_Public_GravityCharacterMovementComp_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UGravityCharacterMovementComp, UGravityCharacterMovementComp::StaticClass, TEXT("UGravityCharacterMovementComp"), &Z_Registration_Info_UClass_UGravityCharacterMovementComp, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGravityCharacterMovementComp), 4163032426U) },
+		{ Z_Construct_UClass_UGravityCharacterMovementComp, UGravityCharacterMovementComp::StaticClass, TEXT("UGravityCharacterMovementComp"), &Z_Registration_Info_UClass_UGravityCharacterMovementComp, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGravityCharacterMovementComp), 3785062501U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Game02_2_Source_Game02_2_Public_GravityCharacterMovementComp_h_1689898113(TEXT("/Script/Game02_2"),
-	Z_CompiledInDeferFile_FID_Game02_2_Source_Game02_2_Public_GravityCharacterMovementComp_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Game02_2_Source_Game02_2_Public_GravityCharacterMovementComp_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Robert_J_Berryhill_Documents_GitHub_Game02_2_Game02_2_Source_Game02_2_Public_GravityCharacterMovementComp_h_2458312851(TEXT("/Script/Game02_2"),
+	Z_CompiledInDeferFile_FID_Users_Robert_J_Berryhill_Documents_GitHub_Game02_2_Game02_2_Source_Game02_2_Public_GravityCharacterMovementComp_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Robert_J_Berryhill_Documents_GitHub_Game02_2_Game02_2_Source_Game02_2_Public_GravityCharacterMovementComp_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
