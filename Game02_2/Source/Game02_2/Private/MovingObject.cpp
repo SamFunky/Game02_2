@@ -69,12 +69,10 @@ void AMovingObject::RotateObject(float DeltaTime)
   // Check if the object has moved too far. If total rotation is greater than max rotation. the object has moved too far.
   if (RotateShouldReturn && FMath::Abs(TotalRotation) > MaxRotation)
   {
-    if (hasYaw && noRoll && noPitch)6
+    if (hasYaw && noRoll && noPitch)
     {
-      UE_LOG(LogTemp, Display, TEXT("hasYaw"));
       // Reverse the rotation direction. And update RotationStartLocation
       // to the current location. Get current rotation and add the velocity to it.
-      UE_LOG(LogTemp, Display, TEXT("RotationStartLocation: %s"), *RotationStartLocation.ToString());
       // RotationStartLocation = RotationStartLocation + FRotator(0.0f, MaxRotation, 0.0f);
       // SetActorRotation(RotationStartLocation);
 
@@ -89,7 +87,6 @@ void AMovingObject::RotateObject(float DeltaTime)
     }
     else if (noYaw && hasRoll && noPitch)
     {
-      UE_LOG(LogTemp, Display, TEXT("hasRoll"));
       // RotationStartLocation = RotationStartLocation + FRotator(MaxRotation, 0.0f, 0.0f);
       // SetActorRotation(RotationStartLocation);
 
@@ -104,10 +101,6 @@ void AMovingObject::RotateObject(float DeltaTime)
     }
     else if (noYaw && noRoll && hasPitch)
     {
-      UE_LOG(LogTemp, Display, TEXT("hasPitch"));
-      UE_LOG(LogTemp, Display, TEXT("RotationStartLocation: %s"), *RotationStartLocation.ToString());
-
-
       RotationStartLocation.Pitch = RotationStartLocation.Pitch + MaxRotation;
 
       RotationStartLocation.Normalize();
@@ -139,9 +132,7 @@ void AMovingObject::MoveObject(float DeltaTime)
   {
     // Send platform back.
       // Reverse direction of motion if gone too far.
-      UE_LOG(LogTemp, Display, TEXT("MoveStartLocation: %s"), *MoveStartLocation.ToString());
     FVector MoveDirection = ObjectVelocity.GetSafeNormal();
-    UE_LOG(LogTemp, Display, TEXT("MoveDirection: %s"), *MoveDirection.ToString());
     MoveStartLocation = MoveStartLocation + MoveDirection * MoveDistance;
     SetActorLocation(MoveStartLocation);
 
